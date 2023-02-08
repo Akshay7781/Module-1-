@@ -1,0 +1,25 @@
+//display the information using printf
+
+
+  #include <stdio.h>
+ 
+int main()
+{
+    
+    int name,birthdate,age,address;
+    
+    printf("\nyour name :");
+    scanf("%d",name);
+    
+    printf("\nyour birthdate :");
+    scanf("%d",birthdate);
+    
+    printf("\nyour age :");
+    scanf("%d",age);
+   
+     printf("\nyour address :");
+    scanf("%d",address);
+    
+    return 0;
+    
+}
